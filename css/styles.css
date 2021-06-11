@@ -535,3 +535,154 @@ body {
   opacity: 0.6;
   margin-top: 50px;
 }
+
+
+/* ABOUT PAGE  */
+
+.hero-about {
+  padding-top: 50px;
+  padding-bottom: 120px;
+  background-color: var(--color-primary-midnight-green);
+  background-image: url("../img/about-hero-bg.svg");
+  background-repeat: no-repeat;
+  background-position: calc(50% + 755px) 100%;
+}
+
+.hero-about__content {
+  display: flex;
+}
+
+.hero-about__title {
+  width: 350px;
+  margin: 0;
+  font-size: 64px;
+  line-height: 100px;
+  color: var(--color-primary-white);
+  margin-right: 30px;
+}
+
+.hero-about__text {
+  width: 730px;
+  margin: 0;
+  font-size: 18px;
+  line-height: 28px;
+  color: var(--color-primary-white);
+}
+
+.hero-about__text::before {
+  display: block;
+  content: "";
+  width: 50px;
+  height: 4px;
+  background-color: var(--color-primary-light-coral);
+  margin-bottom: 40px;
+}
+
+
+/* ABOUT- MEETING THE DIRECTOR PAGE  */
+
+.meeting {
+  padding-top: 140px;
+  padding-bottom: 140px;
+  background-color: var(--color-secondary-deep-jungle-green);
+  background-image: url("../img/about-meet-sect-bg.svg");
+  background-repeat: no-repeat;
+  background-position: calc(50% - 750px) 0px;
+}
+
+.meeting__title {
+  margin: 0;
+  font-size: 48px;
+  line-height: 48px;
+  text-align: center;
+  color: var(--color-primary-white);
+}
+
+.meeting__list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  margin-top: 64px;
+  margin-left: -30px;
+  margin-bottom: -50px;
+}
+
+.meeting__item {
+  position: relative;
+  z-index: 1;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 32px 24px 56px;
+  background-color: var(--color-secondary-sacramento);
+  margin-left: 30px;
+  margin-bottom: 50px;
+}
+
+.meeting-list__add--btn {
+  position: absolute;
+  z-index: 1;
+  top: 225px;
+  border: none;
+  background-color: transparent;
+  width: 56px;
+  height: 56px;
+  background-color: var(--color-primary-light-coral);
+  border-radius: 50%;
+  background-image: url("../img/plus-icon.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.meeting-list__name {
+  margin: 0;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  color: var(--color-secondary-rapture-blue);
+  margin-top: 16px;
+}
+
+.meeting-list__job {
+  margin: 0;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+  color: var(--color-primary-white);
+}
+
+.meeting-list__added {
+  font-size: 14px;
+  line-height: 25px;
+  text-align: center;
+  color: var(--color-primary-white);
+}
+
+.meeting-social__links {
+  display: flex;
+}
+
+a {
+  margin-right: 16px;
+}
+
+
+.meeting-list__vactor--btn {
+  position: absolute;
+  z-index: 1;
+  top: 225px;
+  border: none;
+  background-color: transparent;
+  width: 56px;
+  height: 56px;
+  background-color: var(--color-secondary-rapture-blue);
+  border-radius: 50%;
+  background-image: url("../img/vector-icon.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
