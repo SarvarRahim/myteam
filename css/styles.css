@@ -686,3 +686,28 @@ a {
   background-repeat: no-repeat;
   background-position: center;
 }
+
+/* OUR CLIENTS SECTION  */
+
+.our-clients {
+  padding-top: 140px;
+  padding-bottom: 140px;
+  background-color: var(--color-secondary-sacramento);
+  background-image: url("../img/clients-bg.svg");
+  background-repeat: no-repeat;
+  background-position: calc(50% - 620px) 0px;
+}
+
+.our-clients__title {
+  margin: 0;
+  font-size: 48px;
+  line-height: 48px;
+  text-align: center;
+  color: var(--color-primary-white);
+}
+
+.our-clients__content {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 64px;
+}
