@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>MyTeam</title>
+  <title>Contact</title>
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Livvic:wght@600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/normalize.css">
@@ -32,90 +32,54 @@
         <a class="btn btn-header" href="contact.html">Contact us</a>
       </div>
     </div>
-</header>
+  </header>
 
-<main class="site-content">
-
-  <div class="hero-site">
+  <div class="content">
     <div class="container">
-      <div class="hero-site__inner">
-        <div class="hero-site__text--box">
-          <h1 class="hero-site__title">Find the best <span>talent</span></h1>
-          <p class="hero-site__text">Finding the right people and building high performing teams can be hard. Most companies aren’t tapping into the abundance of global talent. We’re about to change that.</p>
+      <div class="contact">
+        <div class="contact__left">
+          <h1 class="contact__title">Contact</h1>
+          <p class="contact__text">Ask us about</p>
+          <ul class="contact__list">
+            <li class="contact__item contact__item--first">The quality of our talent network</li>
+            <li class="contact__item contact__item--second">Usage & implementation of our software</li>
+            <li class="contact__item contact__item--thirt">How we help drive innovation</li>
+          </ul>
         </div>
+
+        <form class="contact-form" action="https://echo.htmlacademy.ru" method="POST">
+          <div class="contact-form__group">
+            <label class="contact-form__label">
+              <input class="contact-form__input" type="text" name="name" minlength="3" placeholder="Name" required>
+              <span class="contact-form__error">This field is required</span>
+            </label>
+          </div>
+          <div class="contact-form__group">
+            <label class="contact-form__label">
+              <input class="contact-form__input" type="email" name="email" placeholder="Email Address" min="5" maxlength="20" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
+              <span class="contact-form__error">This field is required</span>
+            </label>
+          </div>
+          <div class="contact-form__group">
+            <label class="contact-form__label">
+              <input class="contact-form__input" type="text" name="name" minlength="3" placeholder="Company Name" required>
+              <span class="contact-form__error">This field is required</span>
+            </label>
+          </div>
+          <div class="contact-form__group">
+            <label class="contact-form__label">
+              <input class="contact-form__input" type="text" name="title" minlength="3" placeholder="Title" required>
+              <span class="contact-form__error">This field is required</span>
+            </label>
+          </div>
+
+          <textarea class="contact-form__input" name="message" rows="4" placeholder="Message"></textarea>
+
+          <button class="button-form" type="submit">submit</button>
+        </form>
       </div>
     </div>
   </div>
-
-  <!-- FEATURES SECTION  -->
-
-  <section class="features">
-    <div class="container">
-      <div class="features-content">
-        <div class="features__left">
-          <h2 class="features__title">Build & manage distributed teams like no one else.</h2>
-        </div>
-        <div class="features-right">
-          <ul class="features__list list">
-            <li class="features__item features__item--first">
-              <h3 class="list__title">Experienced Individuals</h3>
-              <p class="list__text">Our network is made up of highly experienced professionals who are passionate about what they do.</p>
-            </li>
-
-            <li class="features__item features__item--second">
-              <h3 class="list__title">Easy to Implement</h3>
-              <p class="list__text">Our processes have been refined over years of implementation meaning our teams always deliver.</p>
-            </li>
-
-            <li class="features__item features__item--thirt">
-              <h3 class="list__title">Enhanced Productivity</h3>
-              <p class="list__text">Our customized platform with in-built analytics helps you manage your distributed teams.</p>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="reviews">
-    <div class="container">
-      <div class="reviews__wrapper">
-      <h2 class="reviews__title">Delivering real results for top companies. Some of our <span>success stories.</span></h2>
-
-      <ul class="reviews__list">
-        <li class="reviews__item">
-          <blockquote class="reviews__list-text">“The team perfectly fit the specialized skill set required. They focused on the most essential features helping us launch the platform eight months faster than planned.”</blockquote>
-          <h3 class="reviews__list-name">Kady Baker</h3>
-          <p class="reviews__list-job">Product Manager at Bookmark</p>
-          <img src="img/reviews-img-kadybaker@2x.png" alt="Kafy baker" width="62" height="62">
-        </li>
-
-        <li class="reviews__item">
-          <blockquote class="reviews__list-text">“We needed to automate our entire onboarding process. The team came in and built out the whole journey. Since going live, user retention has gone through the roof!”</blockquote>
-          <h3 class="reviews__list-name">Aiysha Reese</h3>
-          <p class="reviews__list-job">Founder of Manage</p>
-          <img src="img/reviews-img-aiysha.png" alt="Ayisha Reese" width="62" height="62">
-        </li>
-
-        <li class="reviews__item">
-          <blockquote class="reviews__list-text">“Amazing. Our team helped us build an app that delivered a new experience for hiring a physio. The launch was an instant success with 100k downloads in the first month.”</blockquote>
-          <h3 class="reviews__list-name">Arthur Clarke</h3>
-          <p class="reviews__list-job">Co-founder of MyPhysio</p>
-          <img class="reviews__list-img" src="img/reviews-img-arhur.png" alt="Arthur Clarke" width="62" height="62">
-        </li>
-      </ul>
-    </div>
-    </div>
-  </section>
-
-  <section class="red-part">
-    <div class="container">
-      <div class="red-part__content">
-        <h2 class="red-part__title">Ready to get started?</h2>
-        <a class="btn btn-redpart" href="#">Contact us</a>
-      </div>
-    </div>
-  </section>
 
   <footer class="site-footer">
     <div class="container">
@@ -161,6 +125,5 @@
     </div>
   </footer>
 
-</main>
 </body>
 </html>
